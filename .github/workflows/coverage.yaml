@@ -1,13 +1,13 @@
 name: coverage
 on:
   push:
-   paths:
+    paths:
       - '!README.md'
       - '!docs/**'
       - '**.js'
     branches: [main]
   pull_request:
-    type: [opened, reopened, synchronize]
+    types: [opened, reopened, synchronize]
   workflow_dispatch:
 
 jobs:
