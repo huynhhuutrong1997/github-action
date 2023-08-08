@@ -1,4 +1,4 @@
-name: coverage
+name: Run unit test
 on:
   push:
     paths:
